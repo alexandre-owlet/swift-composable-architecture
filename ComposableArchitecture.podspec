@@ -92,7 +92,12 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Sources/ComposableArchitecture/**/*.swift"
-  spec.exclude_files = ["Sources/ComposableArchitecture/Internal/Deprecations.swift","Sources/ComposableArchitecture/Internal/Exports.swift","Sources/ComposableArchitecture/TestSupport/**/*.swift"]
+  spec.exclude_files = [
+    "Sources/ComposableArchitecture/Internal/Deprecations.swift",
+    "Sources/ComposableArchitecture/Internal/Exports.swift",
+    "Sources/ComposableArchitecture/TestSupport/**/*.swift",
+    "Sources/ComposableArchitecture/SwiftUI/ForEachStore.swift"
+  ]
   # spec.public_header_files = "Classes/**/*.h"
 
 
