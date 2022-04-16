@@ -136,4 +136,5 @@ Pod::Spec.new do |spec|
   spec.dependency "CasePaths"
   spec.dependency "CombineSchedulers"
   spec.dependency "CustomDump"
+  spec.dependency "IdentifiedCollections"
 end
