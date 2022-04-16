@@ -95,6 +95,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = [
     "Sources/ComposableArchitecture/Internal/Deprecations.swift",
     "Sources/ComposableArchitecture/Internal/Exports.swift",
+    "Sources/ComposableArchitecture/Internal/RuntimeWarnings.swift",
     "Sources/ComposableArchitecture/TestSupport/**/*.swift",
     "Sources/ComposableArchitecture/SwiftUI/ForEachStore.swift"
   ]
